@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: backend-feed
-          image: curtarnolds/udagram-api-feed:v1
+          image: curtarnolds/udagram-api-feed:v2
           imagePullPolicy: Always
           resources:
             requests:
@@ -44,16 +44,16 @@ spec:
                 configMapKeyRef:
                   name: env-configmap
                   key: POSTGRES_HOST
-            - name: POSTGRES_DATABASE
+            - name: POSTGRES_DB
               valueFrom:
                 configMapKeyRef:
                   name: env-configmap
-                  key: POSTGRES_DATABASE
-            - name: AWS_S3_BUCKET
+                  key: POSTGRES_DB
+            - name: AWS_BUCKET
               valueFrom:
                 configMapKeyRef:
                   name: env-configmap
-                  key: AWS_S3_BUCKET
+                  key: AWS_BUCKET
             - name: AWS_REGION
               valueFrom:
                 configMapKeyRef:

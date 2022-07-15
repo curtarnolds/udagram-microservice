@@ -1,3 +1,7 @@
 set_env.sh
 deployment.yaml
 service.yaml
+docker-compose.yaml
+docker-compose-v1.yaml
+docker-compose-build.yaml
+docker-compose-build-v1.yaml
