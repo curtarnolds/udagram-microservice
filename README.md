@@ -3,5 +3,5 @@
 
 <div>
 <p>This project is a refactoring of the udagram monolith web app into
-a webapp.</p>
+a microservice webapp.</p>
 </div>

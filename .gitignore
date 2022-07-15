@@ -1,1 +1,3 @@
 set_env.sh
+deployment.yaml
+service.yaml
