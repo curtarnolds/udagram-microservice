@@ -4,9 +4,9 @@ metadata:
   name: env-configmap
 data:
   POSTGRES_DB: postgres
-  POSTGRES_HOST: udagram-monolith.cbzgheawkelz.us-east-1.rds.amazonaws.com
+  POSTGRES_HOST: monolith-afayedor.clgyzzrlx5x3.us-east-1.rds.amazonaws.com
   AWS_REGION: us-east-1
   AWS_PROFILE: default
-  AWS_BUCKET: udagram-monolith
+  AWS_BUCKET: monolith-afayedor
   JWT_SECRET: testing
   URL: http://localhost:8100
