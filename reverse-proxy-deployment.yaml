@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: reverse-proxy
-          image: curtarnolds/reverseproxy:v1
+          image: curtarnolds/reverseproxy:v3
           imagePullPolicy: Always
           resources:
             requests:

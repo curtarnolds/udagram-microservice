@@ -5,3 +5,5 @@ docker-compose.yaml
 docker-compose-v1.yaml
 docker-compose-build.yaml
 docker-compose-build-v1.yaml
+docker-compose-v2.yaml
+docker-compose-build-v2.yaml

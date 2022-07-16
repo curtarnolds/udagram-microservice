@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: backend-feed
-          image: curtarnolds/udagram-api-feed:v2
+          image: curtarnolds/udagram-api-feed:v3
           imagePullPolicy: Always
           resources:
             requests:
